@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mp3"
+        android:title="MP3"
+        android:icon="@drawable/mp3"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/Chat"
+        android:icon="@drawable/chatting"
+        android:title="Chatting"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/gallery"
+        android:icon="@drawable/gallery"
+        android:title="Gallery"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_weight="9"
+    android:orientation="vertical"
+    android:layout_height="0dp">
+    <EditText
+        android:id="@+id/t_title"
+        android:layout_weight="1"
+        style="@style/form_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <EditText
+        android:id="@+id/t_writer"
+        android:layout_weight="1"
+        style="@style/form_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <EditText
+        android:id="@+id/t_content"
+        android:layout_weight="8"
+        style="@style/form_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:lines="15"/>
+
+</LinearLayout>
